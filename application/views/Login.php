@@ -18,23 +18,29 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/select2/select2.min.css">
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/util.css">
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/main.css">
-<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/') ?>img/sigap.icon">
+<link rel="stylesheet" href="<?= base_url()?>assets/css/list.css">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 <script type="text/javascript" src="<?= base_url() ?>assets/sweetalert/sweetalert.min.js"></script>
 <script src="<?= base_url('assets/vendor/') ?>jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
 
 </head>
 <body>
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('assets/img/security1.png');">
+		<div class="container-login100" style="background-image: url('http://www.sigap.com/wp-content/uploads/2019/09/siswa-gada-pratama-154.jpg');">
 			<div class="wrap-login100">
 				<form method="post" onsubmit="return validasi()" action="<?= base_url('Login/cekLogin') ?>" class="login100-form validate-form">
 					<div class="login100-form-avatar">
-						<img src="<?= base_url() ?>assets/img/sigap.icon" alt="AVATAR">
+						<img src="assets/img/favicon.png" alt="AVATAR">
 					</div>
 
 					<span class="login100-form-title p-t-20 p-b-45">
-						MASTER DATA <br> SIGAP PRIMA ASTREA
+						<div class="text-shadow 5px 5px 0px">
+							<font color='black' text-shadow='5px 5px'><bold>MASTER DATA <br> SIGAP PRIMA ASTREA </bold></font>
+						</div>
 					</span>
+
+
+
 
 					<div class="wrap-input100 validate-input m-b-10" data-validate = "Username is required">
 						<input class="input100" name="npk"  autocomplete="off" placeholder="Enter NPK" id="npk">

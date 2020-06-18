@@ -25,11 +25,12 @@ if($this->session->userdata('role_id') == 3 ){
   <!-- Custom styles for this template-->
 
   <link href="<?= base_url('assets/') ?>css/sb-admin-2.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/') ?>img/sigap.icon">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
 
   <link href="<?= base_url() ?>assets/css/sb-admin-2.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>assets/css/sb-admin-2.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>assets/img/sigap.icon">
+
    <!-- Custom styles for this page -->
   <link href="<?= base_url() ?>assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
   <!-- Bootstrap core JavaScript-->
